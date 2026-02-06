@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Professional User Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f6f8;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+      background: white;
+      font-size: 28px;
+      font-weight: bold;
+      border-bottom: 2px solid #ddd;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    /* About */
+    .about {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .about img {
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #eee;
+    }
+
+    /* Form */
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      background: #4f46e5;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: white;
+      margin-top: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .about {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Professional User Profile
+  </header>
+
+
+  <main>
+
+    <section>
+      <h2>About Me</h2>
+
+      <article class="about">
+        
+
+        <div>
+          <h3>Jane Doe</h3>
+          <p>Web Developer / Passionate about accessible and semantic web experiences</p>
+        </div>
+      </article>
+    </section>
+
+
+    <section>
+      <h2>Skills</h2>
+
+      <ul>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+    </section>
+
+
+    <section>
+      <h2>Experience</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Company/Institution</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Frontend Developer</td>
+            <td>Tech Solutions Inc.</td>
+            <td>2020-Present</td>
+          </tr>
+
+          <tr>
+            <td>Junior Developer</td>
+            <td>Web Innovators</td>
+            <td>2018-2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    <section>
+      <h2>Contact</h2>
+
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="3" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+
+  <footer>
+    © 2026 Jane Doe. All rights reserved.
+  </footer>
+  <a href="../index.html">⬅ กลับหน้า Portfolio</a>
+ <a href="excer5.html">⬅ ไปหน้าโจทย์</a>
+
+</body>
+</html>
